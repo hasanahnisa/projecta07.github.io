@@ -1,0 +1,161 @@
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+	height: 60px;
+	background-color: #1e3799;
+}
+
+.header-list li {
+	float: right;
+	
+}
+.header-list li a {
+	color: white;
+	padding: 0 20px;
+	line-height: 60px;
+	display: block;
+}
+
+
+
+.header-list li a:hover {
+  background-color: #f6b93b;
+}
+.header-list li a:active {
+  background-color: #eb2f06;
+}
+.top-wrapper {
+	padding: 220px 0px 220px 0px;
+	background-size: cover;
+	background-image: url('back.jpg');
+	color: white;
+	text-align: center;
+}
+.top-text h2 {
+	width: 90%;
+}
+
+.top-text p{
+	text-align: center;
+	font-size: 16px;
+}
+
+.profile {
+	
+	padding: 30px 0px 30px 20px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.clear	{
+	clear: left;
+}
+
+.profile-heading {
+	animation-name: headname;
+	animation-duration: 10s;
+	animation-fill-mode: forwards;
+	background-color: #0a3d62;
+	color: white;
+	line-height: 5px;
+	padding: 2% 0 2% 0;
+}
+
+@keyframes headname {
+	0%{
+		background-color: #33d9b2;
+	}
+	50%{
+		background-color: #218c74;
+	}
+	100%{
+		background-color: #1e3799;
+	}
+}
+
+.profile-container {
+	padding-top: 20px;
+	margin: auto;
+	float: left;
+	width: 20%;
+}
+.profile-desc {
+	width: 90%;
+	border: 1px solid black;
+}
+
+.profile-desc p{
+	width: 80%;
+  display: inline-block;
+  line-height: 0px;
+}
+.profile-desc img{
+	width: 200px;
+
+}
+
+.form{
+	padding: 30px 0px 30px 0px;
+	height: 200px;
+	text-align: center;
+}
+.form-item{
+	padding-bottom: 20px;
+}
+.form-item input{
+	width: 25%;
+	height: 50%;
+	padding: 4% 2% 4% 2%;
+	color: black;
+}
+
+.form-input{
+	color:#889eab;
+}
+.btn {
+padding: 10px 60px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 5px #1a7940;
+  color: white;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+.btn:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.contact{
+	margin-top: 40px;
+	background-color: #f7f7f7;
+	text-align: center;
+	color: black;
+}
+
+.contact img{
+	display: inline-block;
+	width: 7%;
+    height: 10%;
+	margin-bottom: 40px;
+}
+
+.footer{
+	height: 25px;
+	color: white;
+	background-color: #1e3799;
+	text-align: center;
+	display: block;
+	padding: 15px 0 30px 0;
+}
